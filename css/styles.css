@@ -1,5 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 .link {
@@ -9,25 +11,36 @@ body {
 .page-nav .link {
   color: #2e2f42;
   font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-.page-nav .link:hover {
+.page-nav .link:hover,
+.page-nav .link:focus {
   color: #404bbf;
 }
 
-.address .link,
+.contact-information .address .link,
 .section-text {
   color: #434455;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-.address .link:hover,
+.contact-information .address .link {
+  font-style: normal;
+}
+
+.contact-information .address .link:hover,
 .address .link:focus {
   color: #404bbf;
 }
 
 .logo-header {
-  color: #2e2f42;
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -35,14 +48,14 @@ body {
 }
 
 .logo-header span {
-  color: #4d5ae5;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
+  color: #2e2f42;
 }
 
 .logo-footer {
-  color: #f4f4fd;
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -50,13 +63,15 @@ body {
 }
 
 .logo-footer span {
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 
 .page-title {
   color: #ffffff;
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .button {
@@ -65,8 +80,13 @@ body {
   font-weight: 500;
   line-height: 1.5;
   cursor: pointer;
+  letter-spacing: 0.04em;
 }
-.order-service:hover {
+.button:hover {
+  color: #404bbf;
+}
+
+.button:focus {
   background-color: #404bbf;
 }
 
@@ -75,6 +95,8 @@ h3 {
   font-weight: 500;
   line-height: 1.5;
   font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 p {
