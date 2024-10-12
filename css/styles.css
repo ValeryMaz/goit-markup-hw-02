@@ -62,7 +62,7 @@ body {
   text-decoration: none;
 }
 
-.logo-footer span {
+.logo-footer .studio {
   color: #f4f4fd;
 }
 
@@ -90,10 +90,11 @@ body {
   background-color: #404bbf;
 }
 
-h3 {
+.section-our-team .team-card .card-name,
+section .list .qualities,
+section .list-header {
   color: #2e2f42;
   font-weight: 500;
-  line-height: 1.5;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -126,4 +127,8 @@ footer,
 
 .section-our-team {
   background-color: #f4f4fd;
+}
+
+.section-our-team .li .team-card {
+  background-color: #ffffff;
 }
