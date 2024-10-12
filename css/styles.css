@@ -27,7 +27,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.contact-information .address .link {
+.contact-information {
   font-style: normal;
 }
 
@@ -83,7 +83,7 @@ body {
   letter-spacing: 0.04em;
 }
 .button:hover {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 .button:focus {
@@ -101,6 +101,8 @@ h3 {
 
 p {
   color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 h2 {
@@ -110,6 +112,16 @@ h2 {
 footer,
 .main-section {
   background-color: #2e2f42;
+}
+
+.team,
+.portfolio {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .section-our-team {
